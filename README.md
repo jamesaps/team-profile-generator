@@ -6,6 +6,8 @@
 
 This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. You have been provided with tests, so make sure every part of your code passes each provided test.
 
+![Project Screenshot](./assets/images/project-screenshot.png)
+
 ## Table of Contents
 
 - [Description](#description)
@@ -46,12 +48,13 @@ Time: 0.383 s, estimated 1 s\
 _Ran all test suites._
 
 ## Features
+
 - Easy to use CLI interface to generate teams
 - Automatic styled HTML rendering of team
 - Supports three employee types
-    - Manager
-    - Engineer
-    - Intern
+  - Manager
+  - Engineer
+  - Intern
 
 ## Questions
 
