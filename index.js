@@ -38,6 +38,11 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
       team.push(intern);
     }
   }
+
+  const html = render(team);
+
+  await fs.mkdir(OUTPUT_DIR, { recursive: true });
+  await fs.writeFile(outputPath, html);
 })();
 
 async function getMenuChoice(choices) {
